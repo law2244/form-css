@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    background-color: #5A16E0;
+}
+.formulario{
+    background-color: #fff;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin: auto;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    
+}
+.conteiner{
+    margin-left: 30px;
+}
+.area_titulo_login{
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.titulo_login{
+    font-weight: bold;
+    font-size: 28px;
+    font-family: arial;
+}
+.bar{
+    height: 3px;
+    width: 34px;
+    background-color: #9400d3;
+    position: relative;
+    bottom: 5px;
+}
+.area_input i{
+    color: #9400d3;
+    font-size: 0.8rem
+}
+
+.area_input{
+    width: 80%;
+    margin-bottom: 20px;
+    border: 0;
+    position: relative;
+    border-bottom: 2px solid #c3c3c3
+}
+.area_input input{
+    border:0;
+    outline: 0
+}
+.area_input::after{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #9400d3;
+    content: '';
+    display: block;
+    transform: scaleX(0);
+    transform-origin: 0;
+    width: 100%;
+    transition-duration: 1s;
+}
+.area_input:hover::after{
+    transform: scaleX(1);
+    transform-origin: 1px;
+    background-color: #9400d3;
+}
+.olho_passoword{
+    margin-right: -1rem
+}
+
+[value="continue"]{
+    width: 90%;
+    padding: 6px;
+    border-radius: 3px;
+    background: linear-gradient(to right, #8e54e9, #4776E6);
+    border: 0;
+    color: #fff;
+}
+[value="continue"]:hover{
+    background: linear-gradient(to left, #8e54e9, #4776E6);
+}
+
+.texto_redes_socias{
+    text-align: center;
+    margin-right: 30px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+    padding-top: 10px
+}
+.redes_socias{
+    margin-top: 20px;
+}
+.fundo_twiter{
+    background-color: #00acee;
+    width: 85%;
+    padding: 8px;
+    border-radius: 5px;
+}
+.twiter a{
+    display: flex;
+    
+}
+a{
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+.text_twiter{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.twiter i{
+    position: relative;
+    top: 2px;
+}
+.fundo_facebok{
+    background-color: #3b5998;
+    width: 85%;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+.faceboc a{
+    display: flex;
+}
+.faceboc i{
+    position: relative;
+    top: 2px;
+}
